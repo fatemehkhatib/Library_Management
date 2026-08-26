@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+.DS_Store
+
+/frontend/.env
+# Ignore backend virtual environment and local secrets
+backend/venv/
+backend/.env
+backend/data/users.csv
