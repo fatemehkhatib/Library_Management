@@ -1,0 +1,226 @@
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.header-actions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #1a1a1a;
+  background: none;
+  border: none;
+  font-size: 15px;
+}
+
+.logout-btn {
+  color: #b00020;
+}
+
+.app-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+/* ---------- Home page ---------- */
+.search-section {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.search-bar input {
+  flex: 1;
+  max-width: 420px;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2b6cb0;
+  color: white;
+  font-size: 15px;
+}
+
+/* ---------- Book list ---------- */
+.book-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.book-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 16px;
+}
+
+.book-info h3 {
+  margin: 0 0 6px;
+}
+
+.book-info p {
+  margin: 2px 0;
+  color: #444;
+  font-size: 14px;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.badge.available {
+  background-color: #e3f9e5;
+  color: #1b8a2f;
+}
+
+.badge.unavailable {
+  background-color: #fdecea;
+  color: #b00020;
+}
+
+.borrow-btn {
+  white-space: nowrap;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2b6cb0;
+  color: white;
+  font-size: 14px;
+}
+
+.borrow-btn:disabled {
+  background-color: #9db8d1;
+  cursor: not-allowed;
+}
+
+.empty-state {
+  text-align: center;
+  color: #666;
+}
+
+.success-message {
+  text-align: center;
+  color: #1b8a2f;
+  background-color: #e3f9e5;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.error-message {
+  text-align: center;
+  color: #b00020;
+  background-color: #fdecea;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+/* ---------- Login page ---------- */
+.login-page {
+  max-width: 380px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hint {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: right;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.login-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.login-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2b6cb0;
+  color: white;
+  font-size: 15px;
+}
+
+/* ---------- Profile page ---------- */
+.profile-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  font-size: 15px;
+  color: #666;
+  border-bottom: 2px solid transparent;
+}
+
+.tab.active {
+  color: #2b6cb0;
+  border-bottom-color: #2b6cb0;
+  font-weight: bold;
+}
+
+.user-info p {
+  font-size: 16px;
+}
