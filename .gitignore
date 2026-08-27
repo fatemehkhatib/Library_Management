@@ -10,4 +10,3 @@ dist/
 # Ignore backend virtual environment and local secrets
 backend/venv/
 backend/.env
-backend/data/users.csv
